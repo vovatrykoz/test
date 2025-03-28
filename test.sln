@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test.Console", "test.Console\test.Console.csproj", "{D65C8CE6-D327-4137-A039-2D344849F2B3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "opentk", "opentk", "{91442A04-BBDA-F041-C8C0-DB3703284707}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E81E073C-0D94-5988-C2AB-282D6230F570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTK.Mathematics", "opentk\src\OpenTK.Mathematics\OpenTK.Mathematics.csproj", "{6F9A7857-153D-4ABB-8263-4B87BD972D11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +33,24 @@ Global
 		{D65C8CE6-D327-4137-A039-2D344849F2B3}.Release|x64.Build.0 = Release|Any CPU
 		{D65C8CE6-D327-4137-A039-2D344849F2B3}.Release|x86.ActiveCfg = Release|Any CPU
 		{D65C8CE6-D327-4137-A039-2D344849F2B3}.Release|x86.Build.0 = Release|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Debug|x64.Build.0 = Debug|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Debug|x86.Build.0 = Debug|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Release|x64.ActiveCfg = Release|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Release|x64.Build.0 = Release|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Release|x86.ActiveCfg = Release|Any CPU
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E81E073C-0D94-5988-C2AB-282D6230F570} = {91442A04-BBDA-F041-C8C0-DB3703284707}
+		{6F9A7857-153D-4ABB-8263-4B87BD972D11} = {E81E073C-0D94-5988-C2AB-282D6230F570}
 	EndGlobalSection
 EndGlobal
